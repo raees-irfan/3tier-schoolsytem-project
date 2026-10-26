@@ -1,4 +1,4 @@
 $kind: http-request
-url: http://localhost:3000/api/contact/6adb6d149104e872a07db49a
+url: http://localhost:3000/api/event/6adda2fb50c2987c69f9d17f
 method: DELETE
 order: 4000

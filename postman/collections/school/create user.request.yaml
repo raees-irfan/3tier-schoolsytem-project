@@ -1,12 +1,12 @@
 $kind: http-request
-url: http://localhost:3000/api/user
+url: http://localhost:3000/api/auth/signup
 method: POST
 body:
   type: json
   content: |-
     {
-        "name": "Alok Kumar Sharma",
-        "email": "alok.sharma@example.com",
-        "password": "hashed_password_123"
-      },
+        "name": "Riya Verma",
+        "email": "riya.verma@example.com",
+        "password": "hashed_password_456"
+      }
 order: 1827
