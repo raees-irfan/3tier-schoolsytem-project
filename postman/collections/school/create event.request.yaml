@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3000/api/event
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "title": "Tech Workshop 2026",
+        "description": "A hands-on workshop on web development and modern technologies.",
+        "date": "2026-11-15",
+        "time": "10:00 AM",
+        "location": "Bangalore, Karnataka"
+    }
+order: 1936

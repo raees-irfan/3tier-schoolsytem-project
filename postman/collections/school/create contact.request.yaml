@@ -1,0 +1,14 @@
+$kind: http-request
+url: http://localhost:3000/api/contact
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "Priya Verma",
+        "email": "priya.verma@gmail.com",
+        "phone": 9123456780,
+        "subject": "Website Feedback",
+        "message": "The website is very informative. Great job!"
+      }
+order: 1000

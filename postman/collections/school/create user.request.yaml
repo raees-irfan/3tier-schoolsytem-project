@@ -1,0 +1,12 @@
+$kind: http-request
+url: http://localhost:3000/api/user
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "Alok Kumar Sharma",
+        "email": "alok.sharma@example.com",
+        "password": "hashed_password_123"
+      },
+order: 1827
